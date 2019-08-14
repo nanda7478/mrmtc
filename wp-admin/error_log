@@ -1,0 +1,17 @@
+[01-May-2018 05:52:47 UTC] WordPress database error Unknown column 'wpmr_' in 'field list' for query SELECT wpmr_
+[07-May-2018 06:13:45 UTC] PHP Warning:  Illegal string offset 'email' in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/social-share-button/includes/functions.php on line 230
+[07-May-2018 06:13:45 UTC] PHP Warning:  Illegal string offset 'facebook' in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/social-share-button/includes/functions.php on line 234
+[07-May-2018 06:13:45 UTC] PHP Warning:  Illegal string offset 'twitter' in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/social-share-button/includes/functions.php on line 234
+[07-May-2018 06:13:45 UTC] PHP Warning:  Illegal string offset 'google-plus' in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/social-share-button/includes/functions.php on line 234
+[07-May-2018 06:13:45 UTC] PHP Warning:  Illegal string offset 'reddit' in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/social-share-button/includes/functions.php on line 234
+[07-May-2018 06:13:45 UTC] PHP Warning:  Illegal string offset 'linkedin' in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/social-share-button/includes/functions.php on line 234
+[07-May-2018 06:13:45 UTC] PHP Warning:  Illegal string offset 'stumbleupon' in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/social-share-button/includes/functions.php on line 234
+[09-May-2018 07:25:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/themes/twentysixteen/functions.php on line 389
+[16-May-2018 09:14:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Theme_My_Login_Template' not found in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php:1162
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php(145): Theme_My_Login->load_instance()
+#1 /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/theme-my-login/includes/class-theme-my-login-abstract.php(56): Theme_My_Login->load()
+#2 /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/theme-my-login/includes/class-theme-my-login-abstract.php(81): Theme_My_Login_Abstract->__construct()
+#3 /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php(97): Theme_My_Login_Abstract::get_object('Theme_My_Login')
+#4 /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/theme-my-login/theme-my-login.php(29): Theme_My_Login::get_object()
+#5 /home4/trimurty/demosrvr.com/wp/mrmtc/wp-settings.php(305): include_once('/home4/trim in /home4/trimurty/demosrvr.com/wp/mrmtc/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php on line 1162
